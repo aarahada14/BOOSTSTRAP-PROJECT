@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+ <!-- ................................................................................header START................................................................................ -->   
+<header class="position-fixed w-100 top-0">
+    <div class="navbar border navbar-expand-lg bg-black" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand h1 fs-1"><img src="img/logo (1).png" alt=""></a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="navbar-nav m-auto">
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle me-3" data-bs-toggle="dropdown" data-bs-auto-close="outside">Home</a>
+                            <ul class="dropdown-menu p-3">
+                                <li class="dropdown-item border-bottom"><a>Menu</a></li>
+                                <li class="dropdown-item border-bottom"><a>Gallery</a></li>
+                                <li class="dropdown-item border-bottom"><a>About</a></li>
+                                <li class="dropdown-item border-bottom"><a>Contact</a></li>  
+                            </ul>
+                    </li>
+                    <li class="nav-item me-3"><a class="nav-link">Pages</a></li>
+                    <li class="nav-item me-3"><a class="nav-link">Menu</a></li>
+                    <li class="nav-item me-3"><a class="nav-link">About</a></li>
+                    <li class="nav-item me-3"><a class="nav-link">Contact</a></li>
+                </ul>
+                
+                <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#login">MAKE ARESERVATION</button>
+           </div>
+        </div>
+    </div>
+</header>
+<!-- ................................................................................header END................................................................................ -->
+
+
+
+
+
+
+
+<!-- ................................................................................Make A Reservation START................................................................................ -->
+<section>
+    <div class="modal fade" id="login">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header" style="background-image: url(img/plate.png); background-size:250px; background-repeat:no-repeat; background-position:300px; border: 0;">
+                    <h3>Make A
+                       <br> Reservation</h3>
+                </div>
+                
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col">
+                            <select class="form-select">
+                                <option selected> Time</option>
+                                <option value="1">9:00 AM</option>
+                                <option value="2">11:00 AM</option>
+                                <option value="3">12:00 PM</option>
+                                <option value="4">01:00 PM</option>
+                                <option value="5">02:00 PM</option>
+                                <option value="6">03:00 PM</option>
+                                <option value="7">04:00 PM</option>
+                                <option value="8">05:00 PM</option>
+                                <option value="9">06:00 PM</option>
+                                <option value="10">07:00 PM</option>
+                                <option value="11">08:00 PM</option>
+                                <option value="12">09:00 PM</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <input type="date" class="w-100 p-2 border border-light-subline rounded-2">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" id="name" placeholder="Name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" id="phone" placeholder="Phone">
+                        </div>
+                    </div>
+                    <br>
+                    <select class="form-select">
+                        <option selected>Person</option>
+                        <option value="1">Person</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">10+</option>
+                    </select>
+                    <br>
+                    <input type="text" class="form-control" id="Email" placeholder="Email">
+
+                </div>
+                <div class="modal-footer bg-warning bg-gradient">
+                    <div class="row w-100">
+                        <div class="col-12 fs-5">
+                            Apparently we had reached a great height in the atmos, for the sky was a dead black, and the stars had twinkle. By which lifts the light.
+                        </div>
+                        
+                        <div class="col-12 my-3">
+                            <button class="btn btn-light w-100">SUBMIT</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ................................................................................Make A Reservation form END................................................................................ -->
+    
+
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

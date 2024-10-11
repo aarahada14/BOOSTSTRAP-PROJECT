@@ -5,11 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Project</title>
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
 </head>
 
+
+
+
+
 <body>
- <!-- ................................................................................header START................................................................................ -->   
+
+
+<!-- ................................................................................header START................................................................................ -->   
 <header class="position-fixed w-100 top-0">
     <div class="navbar border navbar-expand-lg bg-black" data-bs-theme="dark">
         <div class="container">
@@ -127,9 +136,131 @@
     </div>
 </section>
 <!-- ................................................................................Make A Reservation form END................................................................................ -->
-    
+ 
 
-    <script src="bootstrap.bundle.min.js"></script>
+
+
+<!-- ................................................................................Fist section START................................................................................ -->
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 p-5 overflow-hidden bg-image">
+                <img class="img-fluid roted" src="img/plate.png" alt="">
+            </div>
+            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 m-auto ps-5">
+                <div style="line-height:1.5;">
+                    <h1>The Spectacle<b>Before Us</b><br>
+                        <b>Was Indeed</b>Sublime.
+                    </h1>
+                </div>
+                <p style="line-height: 1.5;">
+                    Apparently, we had reached a great height in the atmosphere, for the sky <br>
+                    was a dead black, and which lifts the horizon of the sea to the level of <br>
+                     the spectator on a hillside.
+                </p>
+                <div class="d-flex">
+                    <div class="mx-2">
+                        <button class="btn btn-warning px-5">ORDER ONLINE</button>
+                    </div>
+                    <div>
+                        <button class="btn btn-outline-warning px-5">OUR LOCATION</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+<!-- ................................................................................Fist section END................................................................................ -->
+
+
+
+
+
+<!-- ................................................................................Menu START................................................................................ -->
+<section>
+    <div style="margin-top: 100px;" class="container-fluid ">
+        <b>
+            <h4 class="text-center"> Menu
+        </b></h4>
+        <b>
+            <h1 class="text-center">Taste Our Foods & Enjoy
+        </b></h1>
+    </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="slider move">
+                <div>
+                    <h3><img class="img-fluid" src="img/bread-bun-chopping-board.png" alt=""></h3>
+                </div>
+                <div>
+                    <h3><img class="img-fluid" src="img/antioxidant-beverage-carrot-juice.png" alt=""></h3>
+                </div>
+                <div>
+                    <h3><img class="img-fluid" src="img/sec.jpg" alt=""></h3>
+                </div>
+                <div>
+                    <h3><img class="img-fluid" src="img/bowl-calcium-cereal.png" alt=""></h3>
+                </div>
+                <div>
+                    <h3><img class="img-fluid" src="img/sec.jpg" alt=""></h3>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        
+    
+</section>
+
+
+<!-- ................................................................................Menu END................................................................................ -->
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="bootstrap.bundle.min.js"></script>
+ <script>
+        
+$('.move').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+    </script>
+   
 </body>
 
 </html>

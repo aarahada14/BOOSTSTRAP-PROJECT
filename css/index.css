@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.roted{
+    animation:roted 1s linear;
+    position: relative;
+}
+
+@media(min-width:992px){
+    .bg-image{
+        background-image: url(../img/Vector.png);
+        background-size: 95%;
+        background-repeat: no-repeat;
+        height: 800px;
+    }
+}

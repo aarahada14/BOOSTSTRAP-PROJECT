@@ -8,7 +8,7 @@
 
 .roted{
     animation:roted 1s linear;
-    position: relative;
+    
 }
 
 @media(min-width:992px){
@@ -18,4 +18,5 @@
         background-repeat: no-repeat;
         height: 800px;
     }
+    
 }

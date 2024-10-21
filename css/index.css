@@ -78,6 +78,13 @@
     position: relative;
 }
 
+
+.color-red{
+    color: #fe816f ;
+}
+
+
+
 @keyframes roted {
     from{
        left:-500px;
@@ -118,3 +125,8 @@
     }
 }
 
+@media (min-width:991px){
+    .height{
+     height: 100vh ;
+ } 
+ }

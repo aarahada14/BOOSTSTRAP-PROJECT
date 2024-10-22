@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Project</title>
+    <title>menu</title>
     <link rel="stylesheet" href="fonts/remixicon.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
@@ -14,22 +13,9 @@
 </head>
 
 
-
-
-
 <body>
-
-<div class="reloade position-fixed w-100  z-3 top-0 start-0" id="reloade" style="height: 100vh; background-color: #2294af;">
-        <div class=" position-absolute top-50 start-50 translate-middle"  role="status">
-            <span class=" img-fluid"><img src="img/Stirfry.gif" alt=""></span>
-          </div>
-</div>
-
-
-
-
 <!-- .................................header START...................................... -->   
-<header class="position-fixed z-2 w-100 top-0">
+<header class="position-fixed z-3 w-100 top-0">
     <div class="navbar border navbar-expand-lg bg-black" data-bs-theme="dark">
         <div class="container">
             <a class="navbar-brand h1 fs-1"><img src="img/logo (1).png" alt=""></a>
@@ -41,7 +27,7 @@
                 <ul class="navbar-nav m-auto">
                     
                     <li class="nav-item dropdown">
-                        <a href="" class="nav-link dropdown-toggle me-3" data-bs-toggle="dropdown" data-bs-auto-close="outside">Home</a>
+                        <a class="nav-link dropdown-toggle me-3" data-bs-toggle="dropdown" data-bs-auto-close="outside">Home</a>
                             <ul class="dropdown-menu p-3">
                                 <li class="dropdown-item border-bottom"><a>Menu</a></li>
                                 <li class="dropdown-item border-bottom"><a>Gallery</a></li>
@@ -64,206 +50,24 @@
 
 
 
-
-
-
-<!-- ..............................Make A Reservation START............................. -->
+<!-- .................................Background START...................................... -->   
 <section>
-    <div class="modal fade" id="login">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header" style="background-image: url(img/plate.png); background-size:250px; background-repeat:no-repeat; background-position:300px; border: 0;">
-                    <h3>Make A
-                       <br> Reservation</h3>
-                </div>
-                
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col">
-                            <select class="form-select">
-                                <option selected> Time</option>
-                                <option value="1">9:00 AM</option>
-                                <option value="2">11:00 AM</option>
-                                <option value="3">12:00 PM</option>
-                                <option value="4">01:00 PM</option>
-                                <option value="5">02:00 PM</option>
-                                <option value="6">03:00 PM</option>
-                                <option value="7">04:00 PM</option>
-                                <option value="8">05:00 PM</option>
-                                <option value="9">06:00 PM</option>
-                                <option value="10">07:00 PM</option>
-                                <option value="11">08:00 PM</option>
-                                <option value="12">09:00 PM</option>
-                            </select>
-                        </div>
-                        <div class="col">
-                            <input type="date" class="w-100 p-2 border border-light-subline rounded-2">
-                        </div>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col">
-                            <input type="text" class="form-control" id="name" placeholder="Name">
-                        </div>
-                        <div class="col">
-                            <input type="text" class="form-control" id="phone" placeholder="Phone">
-                        </div>
-                    </div>
-                    <br>
-                    <select class="form-select">
-                        <option selected>Person</option>
-                        <option value="1">Person</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                        <option value="11">10+</option>
-                    </select>
-                    <br>
-                    <input type="text" class="form-control" id="Email" placeholder="Email">
-
-                </div>
-                <div class="modal-footer bg-warning bg-gradient">
-                    <div class="row w-100">
-                        <div class="col-12 fs-5">
-                            Apparently we had reached a great height in the atmos, for the sky was a dead black, and the stars had twinkle. By which lifts the light.
-                        </div>
-                        
-                        <div class="col-12 my-3">
-                            <button class="btn btn-light w-100">SUBMIT</button>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
+    <div class="" style="background-image:url(img/fullpage-bg.jpg); height: 400px; background-repeat:no-repeat; background-size:cover; background-position: center;">
+        <h1 class="text-center text-warning fs-md-5 " style="padding-top:180px; font-size: 60px;">Our Menu</h1>
+        <p class="text-white text-center fs-4">THE VARIOUS DISHES ARE WAITING FOR YOUR COMING TO ENJOY ITS</p>
     </div>
+    
 </section>
-<!-- ..............................Make A Reservation END............................. -->
+<!-- .................................Background END...................................... -->      
 
 
 
-<!-- ...............................Fist section START................................ -->
-<section>
-    <div class="container-fluid my-5">
-        <div class="row">
-            <div class="col-xl-5 col-lg-4 col-md-4 col-sm-12 p-5 overflow-hidden bg-image" style="height:100vh;">
-                <img class="roted" style="width: 80%; padding-top: 100px;" src="img/plate.png" alt="">
-            </div>
-            <div class="col-xl-7 col-lg-8 col-md-8 col-sm-12 m-auto ps-5">
-                <div style="line-height:1.5;"  data-aos="fade-up"  data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
-                    <h1>The Spectacle<b>Before Us</b><br>
-                        <b>Was Indeed</b>Sublime.
-                    </h1><br>
-                </div>
-                <p style="line-height: 1.5;"  data-aos="fade-up"  data-aos-duration="2000" data-aos-anchor-placement="center-bottom">
-                    Apparently, we had reached a great height in the atmosphere, for the sky <br>
-                    was a dead black, and which lifts the horizon of the sea to the level of <br>
-                     the spectator on a hillside.
-                </p> <br>
-                <div class="d-flex">
-                    <div class=""  data-aos="fade-up"  data-aos-duration="2000" data-aos-anchor-placement="center-bottom">
-                        <button class="btn btn-warning px-5">ORDER ONLINE</button>
-                    </div>
-                    <div>
-                        <button class="btn btn-outline-warning px-5"  data-aos="fade-up"  data-aos-duration="2000">OUR LOCATION</button>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-</section>
-<!-- ...............................Fist section END................................ -->
-
-
-
-
-
-<!-- ..................................Menu slider START..................................... -->
-<section>
-    <div class="container-fluid my-5">
-        <b>
-            <h4 class="text-center" data-aos="fade-up"  data-aos-duration="1000"> Menu
-        </b></h4>
-        <b>
-            <h1 class="text-center" data-aos="fade-up"  data-aos-duration="1000">Taste Our Foods & Enjoy
-        </b></h1>
-    </div>
-
-    <div class="container my-5">
-            <div class="slider move">
-                <div class="p-2">
-                    <div class="i-img position-relative">
-                        <div class="i-img2 rounded overflow-hidden">
-                            <img class="img-fluid" src="img/bread-bun-chopping-board.png" alt="">
-                            <div class="i-text">
-                                <p class="text-white ps-5 fs-4 fw-semibold ">SMOKED BEEF <br> SUB-SANDWITCH</p>
-                                <p class="text-white ps-5 pb-5">Slow cooked beef sub</p>
-                            </div>
-                        </div>
-                    </div>  
-                </div>
-                <div class="p-2">
-                    <div class="i-img position-relative">
-                        <div class="i-img2 rounded overflow-hidden">
-                            <img class="img-fluid" src="img/antioxidant-beverage-carrot-juice.png" alt="">
-                            <div class="i-text">
-                                <p class="text-white ps-5 fs-4 fw-semibold ">PUMPKIN SPICE<br> JUICE</p>
-                                <p class="text-white ps-5 pb-5">Chilled drink with cinamen</p>
-                            </div>
-                        </div>   
-                    </div>
-                    
-                </div>
-                <div class="p-2">
-                    <div class="i-img position-relative">
-                        <div class="i-img2 rounded overflow-hidden">
-                            <img class="img-fluid" src="img/sec.jpg" alt="">
-                            <div class="i-text">
-                                <p class="text-white ps-5 fs-4 fw-semibold ">COLD MILK SHAKE <br> JUICE</p>
-                                <p class="text-white ps-5 pb-5">Whith fresh milk</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-2">
-                    <div class="i-img position-relative">
-                        <div class="i-img2 rounded overflow-hidden">
-                            <img class="img-fluid" src="img/bowl-calcium-cereal.png" alt="">
-                            <div class="i-text">
-                                <p class="text-white ps-5 fs-4 fw-semibold ">BLUBERRY MILK<br>SMOOTHIE</p>
-                                <p class="text-white ps-5 pb-5">Whith fresh papermint</p>
-                            </div>
-                        </div>
-                    </div>   
-                </div>
-                <div class="p-2">
-                    <div class="i-img position-relative">
-                        <div class="i-img2 rounded overflow-hidden">
-                            <img class="img-fluid" src="img/bowl-delicious-dinner.png" alt="">
-                            <div class="i-text">
-                                <p class="text-white ps-5 fs-4 fw-semibold ">SPICY CHICKEN<br>SPAGHETTI</p>
-                                <p class="text-white ps-5 pb-5">Served with green chillies</p>
-                            </div>
-                        </div>
-                    </div>   
-                </div>
-        </div>
-         
-</section>
-<!-- ..................................Menu slider END..................................... -->
 
 
 
 
 <!-- ..................................Menu chart START..................................... -->
-<section>
+<section style="margin-top: 100px;">
     <div class="container">
         <ul class="nav nav-underline justify-content-center">
             <li class="nav-item px-2">
@@ -801,365 +605,80 @@
 
 
 
-<!-- ..............................hungry? START........................................... -->
-<section   style="background-color: #f7f8fa;">
- <section style="margin-top: 150px;">
-    <div class="container-fluid" style="background-color: #0b1727;">
-        <div class="container">
-            <div class="row justify-content-center flex-lg-row flex-row-reverse" style="height: 300px;">
-                <div class="col-lg-3 col-md-5 p-2 position-relative" >
-                    <div class="position-absolute bottom-0">
-                         <div class="">
-                        <img class="img-fluid d-none d-md-block"  src="img/fried-clipart-transparent-background-7.png" alt="" data-aos="fade-up" data-aos-duration="2000">
-                    </div>
-                 </div>
-                      
-                </div>
-               <div class="col-lg-5 col-md-6 text-md-left">
-                <div class="h-100 d-flex flex-column align-items-start justify-content-center px-5">
-                    <p class="text-warning font-weight-bold mb-1">Hungry?</p>
-                    <h4 class="text-white">We will home deliver !</h4>
-                    <button class="btn btn-warning mt-3 px-4">MAKE AN ORDER</button>
-               </div>
-                   </div>
-            </div>
-        </div>
-    </div>
- </section>
-<!-- ..............................hungry? END........................................... -->
 
-
-
-
-
-<!-- ...................................Catering START................................... -->
- 
- <section>
-    <div class="container my-5">
-        <div class="row">
-            <div class="col-xxl-3 col-xl-3 d-none d-xxl-block">
-                <img class="position-absolute" src="img/cateringillustration.png" alt="" style="width:30%; left:180px;" data-aos="zoom-out" data-aos-duration="2000">
-            </div>
-            <div class="col-xxl-6 col-xl-6 col-lg-12 pt-5">
-                <p class="text-center fs-2 pt-5" data-aos="fade-up"  data-aos-duration="1000"><b>Catering</b></p>
-                <h1 class="text-center mt-4 line-base overflow-hidden mb-5" data-aos="fade-up"  data-aos-duration="1000">
-                     <b> We Manage Your Events</b></h1>
-                <p data-aos="zoom-in"  data-aos-duration="3000">Allow our Chef to deliver the perfect private dinner or cocktail party experience in your home; or let us simply add a little extra flavor to your next office meeting, boat trip, or beach picnic. By partnering with our sibling location Rosewater Wine & Spirits, we can offer a full array of bar services and beverage selections. Email us to learn more.</p>
-            </div>
-            <div class="col-xxl-3 col-xl-3 col-lg-12 mt-5">
-                <div class="shadow-lg py-5 row w-xxl m-auto rounded-2" style="width:300px;" data-aos="zoom-out" data-aos-duration="2000">
-                    <div class="col-xxl-12 col-xl-6 col-lg-12 d-flex justify-content-center">
-                        <img style="width:250px;" src="img/pancake_PNG94.png" alt="">
-                    </div>
-                    <div class="col-xxl-12 col-xxl-12col-xl-6 col-lg-12">
-                       <p class="text-center mt-4 fw-semibold mb-0">We Cater in Weddings, <br>
-                        Corporate Functions
-                        and Events</p> <br>
-                    </div>
-                    <div class="text-center">
-                        <button class="btn btn-warning">HIRE US NOW</button>
-                    </div> 
-                </div>
-                
-            </div>
-        </div>
-    </div>
- </section>
-<!-- ...................................Catering END................................... -->
-
-
-
-
-<!-- ...................................Card START................................... -->
- <section style="margin-top: 150px;">
-    <div class="container my-5">
-        <div class="row">
-            <div class="col-md-5 col-12 p-2">
-                <img src="img/bigimg.jpg" class="img-fluid rounded-2" alt="">
-            </div>
-            <div class="col-md-7 p-2">
-                <div class="row g-3">
-                    <div class="col-md-4 col-4">
-                        <img src="img/1.jpg" class="img-fluid rounded-2" alt="">
-                    </div>
-                    <div class="col-md-4 col-4">
-                        <img src="img/2.jpg" class="img-fluid rounded-2" alt="">
-                    </div>
-                    <div class="col-md-4 col-4">
-                        <img src="img/3.jpg" class="img-fluid rounded-2" alt="">
-                    </div>
-                    <div class="col-md-4 col-4">
-                        <img src="img/4.jpg" class="img-fluid rounded-2" alt="">
-                    </div>
-                    <div class="col-md-4 col-4">
-                        <img src="img/5.jpg" class="img-fluid rounded-2" alt="">
-                    </div>
-                    <div class="col-md-4 col-4">
-                        <img src="img/6.jpg" class="img-fluid rounded-2" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
- </section>
-</section>
-<!-- ...................................Card END................................... -->
-
-
-
-<!-- ...................................About Us START................................... -->
-<section style="margin-top: 150PX;" class="height position-relative m-bott-5 ">
-
-    <img src="img/soup.png" alt="" class="img-fluid position-absolute top-50 end-0 translate-middle-y d-none d-lg-block" width="40%" data-aos="fade-left" data-aos-duration="1500">
-        <div class="container ">
-            
-            <div class="col-lg-7 p-4  ">
-                    <p class="fs-4 lh-1" data-aos="fade-up"  data-aos-duration="1000">About Us</p>
-          <h1 class="fs-1 fw-bold" data-aos="fade-up"  data-aos-duration="1000">Who Are We?</h1> <br>
-          <p class="color1" data-aos="fade-up"  data-aos-duration="1600">We are a chain of theme restaurant founded in 1971 in London. In 1979,<br/>
-             the cafe began covering its walls with rock and roll memorabilia,
-            a<br/> tradition which expanded to others in the chain.</p>
-            <button class="btn btn-warning color1 fs-bold " style="padding:4px 40px;" data-aos="fade-up"  data-aos-duration="1600">LEARN MORE</button>
-
-
-            <div class="row row-cols-2 row-cols-md-3 my-3">
-                <div class="col  p-3" data-aos="fade-up"  data-aos-duration="1000">
-                    <img src="img/1.png" alt="" class="img-fluid rounded-circle " width="89%">
-                    
-                    <p class="p-0 m-0 text-center color1  fw-bold">Gordon Ramsey</p>
-                    <p class="p-0 m-0 text-center color1 fs-6">Owner & Founder</p>
-                </div>
-                <div class="col  p-3" data-aos="fade-up"  data-aos-duration="1500">
-                      <img src="img/2.png" alt="" class="img-fluid rounded-circle " width="89%">
-                    
-                    <p class="p-0 m-0 text-center color1  fw-bold">Gordon Ramsey</p>
-                    <p class="p-0 m-0 text-center color1 fs-6">Owner & Founder</p>
-                </div>
-                <div class="col  p-3" data-aos="fade-up"  data-aos-duration="2000">
-                      <img src="img/3.png" alt="" class="img-fluid rounded-circle " width="89%">
-                    
-                    <p class="p-0 m-0 text-center color1  fw-bold">Gordon Ramsey</p>
-                    <p class="p-0 m-0 text-center color1 fs-6">Owner & Founder</p>
-                </div>
-                <div class="col  p-3" data-aos="fade-up"  data-aos-duration="1000">
-                      <img src="img/4.png" alt="" class="img-fluid rounded-circle " width="89%">
-                    
-                    <p class="p-0 m-0 text-center color1  fw-bold">Gordon Ramsey</p>
-                    <p class="p-0 m-0 text-center color1 fs-6">Owner & Founder</p>
-                </div>
-                <div class="col  p-3" data-aos="fade-up"  data-aos-duration="1500">
-                      <img src="img/5.png" alt="" class="img-fluid rounded-circle " width="89%">
-                    
-                    <p class="p-0 m-0 text-center color1  fw-bold">Gordon Ramsey</p>
-                    <p class="p-0 m-0 text-center color1 fs-6">Owner & Founder</p>
-                </div>
-                <div class="col  p-3" data-aos="fade-up"  data-aos-duration="2000">
-                      <img src="img/6.png" alt="" class="img-fluid rounded-circle " width="89%">
-                    
-                    <p class="p-0 m-0 text-center color1  fw-bold">Gordon Ramsey</p>
-                    <p class="p-0 m-0 text-center color1 fs-6">Owner & Founder</p>
-                </div>
-            </div>
-            </div>
-
-          
-      
-        </div>
-
-
-</section>
-
-
-<!-- ...................................About Us END................................... -->
-
-
-
-
-<!-- ...................................Contact with us START................................... -->
-<section class="position-relative " style="margin-top: 100px;">
-    <div class="container-fluid" style="background-color: #f9fafd;">
-        <img src="img/green.png" class="position-absolute start-0 bottom-0 d-none d-xl-block" alt="" style="width:25%;" data-aos="fade-right" data-aos-duration="1500">
-        <div class="container position-relative" style="padding: 100px 0px 80px 0px;">
-            <div class="row">
-                <div class="col-lg-12 text-center mt-5">
-                    <h3 class="" data-aos="fade-up"  data-aos-duration="1000">
-                        Location & Timing
-                    </h3>
-                    <h2 class="fs-1 mb-5" data-aos="fade-up"  data-aos-duration="1000">
-                        Contact with us
-                    </h2>
-                </div>
-                <div class="col-lg-4 col-12 pb-3">
-                    <div class=" shadow-sm py-5 bg-white rounded-2" style="height: 210px;">
-                        <div class="d-flex ps-3">
-                                <i class="ri-map-fill pe-2 ps-4 fs-5" style="color: #ff806e;"></i>
-                                <p class="color-gray"> Av. Paz Soldán 290, San<br>
-                                    Isidro, Lima 27 - Peru</p>
-                            </div>
-                            <div class="d-flex ps-3 pb-2">
-                                <i class="ri-phone-fill pe-2 ps-4 fs-5 " style="color: #ff806e;"></i>
-                                <a class="color-gray" style="text-decoration: none;" href="tel:1234567890" > +511 442-2777</a>
-                            </div>
-                            <div class="d-flex ps-3">
-                                <i class="ri-mail-fill pe-2 ps-4 fs-5" style="color: #ff806e;"></i>
-                                <a class="color-gray"style="text-decoration: none;" href="mailto:mail@restaurantpro.com" > mail@restaurantpro.com</a>
-                            </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-12 pb-3">
-                    <div class="shadow-sm p-3 bg-white rounded-2" style="height: 210px;">
-                        <p class="color-red fw-semibold mb-0 ps-4">Hours of service</p>
-                        <p class="mb-0 ps-4">Monday to Saturday</p>
-                        <p class="color-gray mt-1 ps-4">1:00 pm - 3:00 pm and<br>
-                            7:00 pm - 11:00 pm</p>
-                            <p class="mb-0 ps-4">Sunday</p>
-                            <p class="color-gray mt-1 ps-4">12:30 pm - 3:30 pm</p>              
-                    </div>
-                </div>
-                <div class="col-lg-4 col-12 pb-3">
-                    <div class=" shadow-sm py-4 bg-white rounded-2 position-relative" style="height: 210px;">
-                        <img src="img/kisspng-soup.png" alt="" class="ps-4 position-absolute  top-0 d-none d-md-block d-lg-none d-xl-block" style="right:0px; width:40%;"  data-aos="fade-down-left" data-aos-duration="1000">
-                        <p class="color-gray fw-semibold mb-0 pt-2 ps-4">Telephone support:</p>
-                        <p class="color-gray ps-4">Monday to Saturday from<br>
-                            9:00 am to 9:00 pm  </p>
-                            <div class="ps-4">
-                            <button class="btn text-white fw-semibold mb-0 my-3" style="background-color: #ff806e;">MAKE A RESERVATION</button>
-                    </div>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
- <!-- ...................................Contact with us END................................... -->
-
-
-
-
-<!-- ...................................Oops! START................................... -->
-<section style="background-color: #e9eaee;">
+<!-- ..................................Menu slider START..................................... -->
+<section style="margin-top: 100px;">
     <div class="container-fluid">
-        <div style="padding: 100px 0px;" class="m-auto text-center">
-            <i class="ri-error-warning-fill" style="font-size:60px;"></i>
-            <h3>Oops! Something went wrong.</h3>
-            <p>This page didn't load Google Maps correctly. See the JavaScript console for technical details.</p>
-        </div>
         
-    </div>
-</section>
-<!-- ...................................Oops! END................................... -->
 
-
-
-<!-- ...................................Feel free to drop us a line! START................................... -->
-<section style="background-color: #f9f9fc;">
-    <div class="container">
-        <div class="col-12" style="padding: 80px 0px;">
-            <h1 class="text-center" data-aos="fade-up"  data-aos-duration="1000"><b>Feel free to drop us a line!</b></h1>
-            <p class="text-center" data-aos="fade-up"  data-aos-duration="1000">Let's talk if you have any query or suggestion. We are open to learn <br>
-                 from you. So don't hesitate to reach us anytime.</p>
-            <div class="row">
-                <div class="col-xxl-6 col-xl-6 col-md-6 py-4">
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Your Name" aria-label="">
+    <div class="container my-5">
+            <div class="slider move">
+                <div class="p-2">
+                    <div class="i-img position-relative">
+                        <div class="i-img2 rounded overflow-hidden">
+                            <img class="img-fluid" src="img/bread-bun-chopping-board.png" alt="">
+                            <div class="i-text">
+                                <p class="text-white ps-5 fs-4 fw-semibold ">SMOKED BEEF <br> SUB-SANDWITCH</p>
+                                <p class="text-white ps-5 pb-5">Slow cooked beef sub</p>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <div class="p-2">
+                    <div class="i-img position-relative">
+                        <div class="i-img2 rounded overflow-hidden">
+                            <img class="img-fluid" src="img/antioxidant-beverage-carrot-juice.png" alt="">
+                            <div class="i-text">
+                                <p class="text-white ps-5 fs-4 fw-semibold ">PUMPKIN SPICE<br> JUICE</p>
+                                <p class="text-white ps-5 pb-5">Chilled drink with cinamen</p>
+                            </div>
+                        </div>   
                     </div>
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Subject" aria-label="">
-                    </div>
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Email Address" aria-label="">
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input p-3" type="checkbox" value="" id="flexCheckDefault"> &nbsp;
-                        <label class="form-check-label" for="flexCheckDefault">
-                          <p class="fs-4"> Send me a copy</p>
-                        </label>
+                    
+                </div>
+                <div class="p-2">
+                    <div class="i-img position-relative">
+                        <div class="i-img2 rounded overflow-hidden">
+                            <img class="img-fluid" src="img/sec.jpg" alt="">
+                            <div class="i-text">
+                                <p class="text-white ps-5 fs-4 fw-semibold ">COLD MILK SHAKE <br> JUICE</p>
+                                <p class="text-white ps-5 pb-5">Whith fresh milk</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-xxl-6 col-xl-6 col-md-6">
-                    <div class="input-group py-4">
-                        
-                        <textarea class="form-control" aria-label="With textarea" rows="6" cols="50" placeholder="Type Your Message here"></textarea>
-                      </div> 
-                      <button class="btn btn-dark px-5"> GIVE US A SHORT</button>
+                <div class="p-2">
+                    <div class="i-img position-relative">
+                        <div class="i-img2 rounded overflow-hidden">
+                            <img class="img-fluid" src="img/bowl-calcium-cereal.png" alt="">
+                            <div class="i-text">
+                                <p class="text-white ps-5 fs-4 fw-semibold ">BLUBERRY MILK<br>SMOOTHIE</p>
+                                <p class="text-white ps-5 pb-5">Whith fresh papermint</p>
+                            </div>
+                        </div>
+                    </div>   
                 </div>
-            </div>
-                 
-        
+                <div class="p-2">
+                    <div class="i-img position-relative">
+                        <div class="i-img2 rounded overflow-hidden">
+                            <img class="img-fluid" src="img/bowl-delicious-dinner.png" alt="">
+                            <div class="i-text">
+                                <p class="text-white ps-5 fs-4 fw-semibold ">SPICY CHICKEN<br>SPAGHETTI</p>
+                                <p class="text-white ps-5 pb-5">Served with green chillies</p>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
         </div>
-    </div>
+         
 </section>
-<!-- ...................................Feel free to drop us a line! END................................... -->
+<!-- ..................................Menu slider END..................................... -->
 
-
-
-
-<!-- ...................................Pizza START................................... -->
-<section class="position-relative">
-    <img src="img/pizza2.png" alt="" class="position-absolute img-fluid d-none d-xl-block " style=" bottom:0;right:0;left:50;width:300px;" data-aos="fade-left">
-<div class="container  p-5">
-    <div class="carousel slide  m-auto" id="slider" data-bs-ride="carousel" data-bs-pause="false" style="max-width:700px;">
-        <div class="carousel-inner slide text-center">
-            <div class="carousel-item active">
-                <div class="p-5 ">
-                    <h3 class="color-gray"><i class="ri-double-quotes-l"></i></h3>
-                    <div class="d-flex justify-content-center">
-                        <i class="ri-star-fill fs-5 color-red"></i>
-                        <i class="ri-star-fill fs-5 color-red "></i>
-                        <i class="ri-star-fill fs-5 color-red "></i>
-                        <i class="ri-star-fill fs-5 color-red "></i>
-                        <i class="ri-star-fill fs-5 color-red "></i>
-                    </div>
-                    <p class="color-gray py-1 px-3"> Restaurant Pro probably make one of the best pizza in Town. I would definitely post their pizza picture someday. But today I have tasted their another items. So there I have mentioned that</p>
-                    <p class="fs-5 fw-semibold mb-0 color-gray">-Richard Hendriks</p>  
-                </div>
-            </div>
-            <div class="carousel-item"  >
-                <div class="p-5 ">
-                    <h3 class="color-gray"><i class="ri-double-quotes-l"></i></h3>
-                    <div class="d-flex justify-content-center">
-                        <i class="ri-star-fill fs-5 color-red"></i>
-                        <i class="ri-star-fill fs-5 color-red "></i>
-                        <i class="ri-star-fill fs-5 color-red "></i>
-                        <i class="ri-star-fill fs-5 color-red "></i>
-                        <i class="ri-star-fill fs-5 color-red "></i>
-                    </div>
-                    <p class="color-gray py-1 px-3"> Restaurant &amp; Cafe, we aim at promoting the foodstuff industry through the branches , we establish and through the new dishes. and integrate between different cultures, by merging different Oriental and its western recipes</p>
-                    <p class="fs-5 fw-semibold mb-0 color-gray">-Lily Rose</p>  
-                </div>
-            </div>
-            <div class="carousel-item"  >
-                <div class="p-5">
-                    <h3 class="color-gray"><i class="ri-double-quotes-l"></i></h3>
-                    <div class="d-flex justify-content-center">
-                        <i class="ri-star-fill fs-5 color-red"></i>
-                        <i class="ri-star-fill fs-5 color-red "></i>
-                        <i class="ri-star-fill fs-5 color-red "></i>
-                        <i class="ri-star-fill fs-5 color-red "></i>
-                        <i class="ri-star-fill fs-5 color-red "></i>
-                    </div>
-                    <p class="color-gray py-1 px-3"> am thrilled with the possibilities that Slick brought to my web design agency. Creating is easier with Slick.</p>
-                    <p class="fs-5 fw-semibold mb-0 color-gray">-Noah Kingon</p>  
-                </div>
-            </div>
-
-        </div>
-
-        <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#slider">
-            <span class="carousel-control-prev-icon bg-warning rounded-5"></span>
-        </button>
-        <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#slider">
-            <span class="carousel-control-next-icon bg-warning rounded-5"></span>
-        </button>
-    </div>   
-</div>
-</section>
-<!-- ...................................Pizza END................................... -->
 
 
 
 <!-- ...................................Footer START................................... -->
-<section style="background-color: #0b1727;">
+<section style="background-color: #0b1727; margin-top:100px;">
     <div class="container ">
         <div class="row">
             
@@ -1221,13 +740,6 @@
 
 
 
-
-
-
-
-
-
-
 <script src="js/jquery-3.7.1.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/aos.js"></script>
@@ -1274,8 +786,6 @@ $('.move').slick({
     // instead of a settings object
   ]
 });
-    </script>
-   
+</script>
 </body>
-
 </html>

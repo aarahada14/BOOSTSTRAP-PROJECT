@@ -13,11 +13,21 @@
 </head>
 
 <body>
+<!-- .................................reloade START...................................... -->
+<div class="reloade position-fixed w-100  z-3 top-0 start-0" id="reloade" style="height: 100vh; background-color: #2294af;">
+    <div class=" position-absolute top-50 start-50 translate-middle"  role="status">
+        <span class=" img-fluid d-flex justify-content-center"><img src="img/Stirfry.gif" style="width: 300px;" alt=""></span>
+      </div>
+</div>
+<!-- .................................reloade END...................................... -->
+
+
+
 <!-- .................................header START...................................... -->   
 <header class="position-fixed z-3 w-100 top-0">
     <div class="navbar border navbar-expand-lg bg-black" data-bs-theme="dark">
         <div class="container">
-            <a class="navbar-brand h1 fs-1"><img src="img/logo (1).png" alt=""></a>
+            <a href="index.html" class="navbar-brand h1 fs-1"><img src="img/logo (1).png" alt=""></a>
                 <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -158,9 +168,15 @@
 <!-- ...................................Pizza START................................... -->
 <section class="position-relative">
     <img src="img/pizza2.png" alt="" class="position-absolute img-fluid d-none d-xl-block " style=" bottom:0;right:0;left:50;width:300px;" data-aos="fade-left">
-<div class="container  p-5">
-    <div class="carousel slide  m-auto" id="slider" data-bs-ride="carousel" data-bs-pause="false" style="max-width:700px;">
-        <div class="carousel-inner slide text-center">
+<div class="container  p-lg-5">
+    <div class="carousel slide  m-auto  carousel-dark" id="slider" data-bs-ride="carousel" data-bs-pause="false" style="max-width:700px;">
+         <div class="carousel-indicators d-lg-none">
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="1" ></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="2" ></button>
+              </div>
+            <div class="carousel-inner slide text-center">
+           
             <div class="carousel-item active">
                 <div class="p-5 ">
                     <h3 class="color-gray"><i class="ri-double-quotes-l"></i></h3>
@@ -206,17 +222,16 @@
 
         </div>
 
-        <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#slider">
+        <button class="carousel-control-prev d-none d-md-block " data-bs-slide="prev" data-bs-target="#slider">
             <span class="carousel-control-prev-icon bg-warning rounded-5"></span>
         </button>
-        <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#slider">
+        <button class="carousel-control-next d-none  d-md-block" data-bs-slide="next" data-bs-target="#slider">
             <span class="carousel-control-next-icon bg-warning rounded-5"></span>
         </button>
     </div>   
 </div>
 </section>
 <!-- ...................................Pizza END................................... -->
-
 
 
 
@@ -335,6 +350,14 @@ $('.move').slick({
   ]
 });
     </script>
+
+<script>
+    setTimeout(() => {
+        let reload = document.getElementById("reloade");
+
+        reload.style.display="none";
+    }, 1700);
+</script>
 
 </body>
 </html>

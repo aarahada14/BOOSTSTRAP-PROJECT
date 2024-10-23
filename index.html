@@ -18,13 +18,13 @@
 
 
 <body>
-
+<!-- .................................reloade START...................................... -->
 <div class="reloade position-fixed w-100  z-3 top-0 start-0" id="reloade" style="height: 100vh; background-color: #2294af;">
         <div class=" position-absolute top-50 start-50 translate-middle"  role="status">
-            <span class=" img-fluid"><img src="img/Stirfry.gif" alt=""></span>
+            <span class=" img-fluid d-flex justify-content-center"><img src="img/Stirfry.gif" style="width: 300px;" alt=""></span>
           </div>
 </div>
-
+<!-- .................................reloade END...................................... -->
 
 
 
@@ -32,7 +32,7 @@
 <header class="position-fixed z-2 w-100 top-0">
     <div class="navbar border navbar-expand-lg bg-black" data-bs-theme="dark">
         <div class="container">
-            <a class="navbar-brand h1 fs-1"><img src="img/logo (1).png" alt=""></a>
+            <a href="index.html" class="navbar-brand h1 fs-1"><img src="img/logo (1).png" alt=""></a>
                 <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -151,9 +151,9 @@
 <!-- ...............................Fist section START................................ -->
 <section>
     <div class="container-fluid my-5">
-        <div class="row">
-            <div class="col-xl-5 col-lg-4 col-md-4 col-sm-12 p-5 overflow-hidden bg-image" style="height:100vh;">
-                <img class="roted" style="width: 80%; padding-top: 100px;" src="img/plate.png" alt="">
+        <div class="row flex-wrap-reverse height"  style="">
+            <div class="col-xl-5 col-lg-4 col-md-4 col-sm-12 p-2 d-flex justify-content-center align-items-start overflow-hidden bg-image">
+                <img class="roted" style="width: 80%; " src="img/plate.png" alt="">
             </div>
             <div class="col-xl-7 col-lg-8 col-md-8 col-sm-12 m-auto ps-5">
                 <div style="line-height:1.5;"  data-aos="fade-up"  data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
@@ -167,11 +167,11 @@
                      the spectator on a hillside.
                 </p> <br>
                 <div class="d-flex">
-                    <div class=""  data-aos="fade-up"  data-aos-duration="2000" data-aos-anchor-placement="center-bottom">
-                        <button class="btn btn-warning px-5">ORDER ONLINE</button>
-                    </div>
-                    <div>
-                        <button class="btn btn-outline-warning px-5"  data-aos="fade-up"  data-aos-duration="2000">OUR LOCATION</button>
+                    <div class="m-2"  data-aos="fade-up"  data-aos-duration="2000" data-aos-anchor-placement="center-bottom">
+                        <button class="btn btn-warning px-md-5">ORDER ONLINE</button>
+                    </div> 
+                    <div class="m-2">
+                        <button class="btn btn-outline-warning px-md-5"  data-aos="fade-up"  data-aos-duration="2000">OUR LOCATION</button>
                     </div>
                 </div>
             </div>
@@ -268,25 +268,28 @@
         <ul class="nav nav-underline justify-content-center">
             <li class="nav-item px-2">
                 <a href="#one" class="nav-link active fw-bold fs-5" data-bs-toggle="pill" style="color:#9ea9b7;">
-                    <i class="ri-cup-fill" style="padding-left:30%"></i> <br>Breakfast</a>
+                    <i class="ri-cup-fill" style="padding-left:30%"></i> <br><span class="d-none d-md-block">Breakfast</span>
+                </a>
             </li>
             <li class="nav-item px-2">
                 <a href="#two" class="nav-link fw-bold fs-5" data-bs-toggle="pill" style="color:#9ea9b7;"> 
-                    <i class="ri-restaurant-line" style="padding-left:30%"></i> <br>Lunch
+                    <i class="ri-restaurant-line" style="padding-left:30%"></i> <br><span class="d-none d-md-block">Lunch</span>
                 </a>
             </li>
             <li class="nav-item px-2">
                 <a href="#three" class="nav-link fw-bold fs-5" data-bs-toggle="pill" style="color:#9ea9b7;">
-                    <i class="ri-knife-line" style="padding-left:30%"></i> <br>Dinner
+                    <i class="ri-knife-line" style="padding-left:30%"></i> <br><span class="d-none d-md-block">Dinner</span>
                 </a>
             </li>
             <li class="nav-item px-2">
                 <a href="#four" class="nav-link fw-bold fs-5" data-bs-toggle="pill" style="color:#9ea9b7;">
-                    <i class="ri-cake-2-line" style="padding-left:30%"></i> <br>Desserts</a>
+                    <i class="ri-cake-2-line" style="padding-left:30%"></i> <br><span class="d-none d-md-block">Desserts</span>
+                </a>
             </li>
             <li class="nav-item px-2">
                 <a href="#four" class="nav-link fw-bold fs-5" data-bs-toggle="pill" style="color:#9ea9b7;">
-                    <i class="ri-goblet-2-fill" style="padding-left:30%"></i><br>Drinks</a>
+                    <i class="ri-goblet-2-fill" style="padding-left:30%"></i><br><span class="d-none d-md-block">Drinks</span>
+                </a>
             </li>
         </ul>
         <hr class="border-3">
@@ -1097,9 +1100,15 @@
 <!-- ...................................Pizza START................................... -->
 <section class="position-relative">
     <img src="img/pizza2.png" alt="" class="position-absolute img-fluid d-none d-xl-block " style=" bottom:0;right:0;left:50;width:300px;" data-aos="fade-left">
-<div class="container  p-5">
-    <div class="carousel slide  m-auto" id="slider" data-bs-ride="carousel" data-bs-pause="false" style="max-width:700px;">
-        <div class="carousel-inner slide text-center">
+<div class="container  p-lg-5">
+    <div class="carousel slide  m-auto  carousel-dark" id="slider" data-bs-ride="carousel" data-bs-pause="false" style="max-width:700px;">
+         <div class="carousel-indicators d-lg-none">
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="1" ></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="2" ></button>
+              </div>
+            <div class="carousel-inner slide text-center">
+           
             <div class="carousel-item active">
                 <div class="p-5 ">
                     <h3 class="color-gray"><i class="ri-double-quotes-l"></i></h3>
@@ -1145,10 +1154,10 @@
 
         </div>
 
-        <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#slider">
+        <button class="carousel-control-prev d-none d-md-block " data-bs-slide="prev" data-bs-target="#slider">
             <span class="carousel-control-prev-icon bg-warning rounded-5"></span>
         </button>
-        <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#slider">
+        <button class="carousel-control-next d-none  d-md-block" data-bs-slide="next" data-bs-target="#slider">
             <span class="carousel-control-next-icon bg-warning rounded-5"></span>
         </button>
     </div>   
@@ -1238,7 +1247,7 @@
  <script>
         
 $('.move').slick({
-  dots:false,
+  dots:true,
   infinite:true,
   arrows:true,
   autoplay:true,
@@ -1252,7 +1261,7 @@ $('.move').slick({
         slidesToShow: 3,
         slidesToScroll: 3,
         infinite: true,
-        dots: true
+       
       }
     },
     {
@@ -1260,13 +1269,16 @@ $('.move').slick({
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2
+        
       }
     },
     {
       breakpoint: 480,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        arrows:false,
+
       }
     }
     // You can unslick at a given breakpoint now by adding:
@@ -1274,7 +1286,16 @@ $('.move').slick({
     // instead of a settings object
   ]
 });
-    </script>
+</script>
+
+
+<script>
+    setTimeout(() => {
+        let reload = document.getElementById("reloade");
+
+        reload.style.display="none";
+    }, 1700);
+</script>
    
 </body>
 

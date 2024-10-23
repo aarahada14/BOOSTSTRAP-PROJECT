@@ -14,11 +14,22 @@
 
 
 <body>
+<!-- .................................reloade START...................................... -->
+<div class="reloade position-fixed w-100  z-3 top-0 start-0" id="reloade" style="height: 100vh; background-color: #2294af;">
+    <div class=" position-absolute top-50 start-50 translate-middle"  role="status">
+        <span class=" img-fluid d-flex justify-content-center"><img src="img/Stirfry.gif" style="width: 300px;" alt=""></span>
+      </div>
+</div>
+<!-- .................................reloade END...................................... -->
+
+
+
+
 <!-- .................................header START...................................... -->   
 <header class="position-fixed z-3 w-100 top-0">
     <div class="navbar border navbar-expand-lg bg-black" data-bs-theme="dark">
         <div class="container">
-            <a class="navbar-brand h1 fs-1"><img src="img/logo (1).png" alt=""></a>
+            <a href="index.html" class="navbar-brand h1 fs-1"><img src="img/logo (1).png" alt=""></a>
                 <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -72,25 +83,28 @@
         <ul class="nav nav-underline justify-content-center">
             <li class="nav-item px-2">
                 <a href="#one" class="nav-link active fw-bold fs-5" data-bs-toggle="pill" style="color:#9ea9b7;">
-                    <i class="ri-cup-fill" style="padding-left:30%"></i> <br>Breakfast</a>
+                    <i class="ri-cup-fill" style="padding-left:30%"></i> <br><span class="d-none d-md-block">Breakfast</span>
+                </a>
             </li>
             <li class="nav-item px-2">
                 <a href="#two" class="nav-link fw-bold fs-5" data-bs-toggle="pill" style="color:#9ea9b7;"> 
-                    <i class="ri-restaurant-line" style="padding-left:30%"></i> <br>Lunch
+                    <i class="ri-restaurant-line" style="padding-left:30%"></i> <br><span class="d-none d-md-block">Lunch</span>
                 </a>
             </li>
             <li class="nav-item px-2">
                 <a href="#three" class="nav-link fw-bold fs-5" data-bs-toggle="pill" style="color:#9ea9b7;">
-                    <i class="ri-knife-line" style="padding-left:30%"></i> <br>Dinner
+                    <i class="ri-knife-line" style="padding-left:30%"></i> <br><span class="d-none d-md-block">Dinner</span>
                 </a>
             </li>
             <li class="nav-item px-2">
                 <a href="#four" class="nav-link fw-bold fs-5" data-bs-toggle="pill" style="color:#9ea9b7;">
-                    <i class="ri-cake-2-line" style="padding-left:30%"></i> <br>Desserts</a>
+                    <i class="ri-cake-2-line" style="padding-left:30%"></i> <br><span class="d-none d-md-block">Desserts</span>
+                </a>
             </li>
             <li class="nav-item px-2">
                 <a href="#four" class="nav-link fw-bold fs-5" data-bs-toggle="pill" style="color:#9ea9b7;">
-                    <i class="ri-goblet-2-fill" style="padding-left:30%"></i><br>Drinks</a>
+                    <i class="ri-goblet-2-fill" style="padding-left:30%"></i><br><span class="d-none d-md-block">Drinks</span>
+                </a>
             </li>
         </ul>
         <hr class="border-3">
@@ -605,11 +619,16 @@
 
 
 
-
 <!-- ..................................Menu slider START..................................... -->
-<section style="margin-top: 100px;">
-    <div class="container-fluid">
-        
+<section>
+    <div class="container-fluid my-5">
+        <b>
+            <h4 class="text-center" data-aos="fade-up"  data-aos-duration="1000"> Menu
+        </b></h4>
+        <b>
+            <h1 class="text-center" data-aos="fade-up"  data-aos-duration="1000">Taste Our Foods & Enjoy
+        </b></h1>
+    </div>
 
     <div class="container my-5">
             <div class="slider move">
@@ -673,6 +692,7 @@
          
 </section>
 <!-- ..................................Menu slider END..................................... -->
+
 
 
 
@@ -787,5 +807,15 @@ $('.move').slick({
   ]
 });
 </script>
+
+<script>
+    setTimeout(() => {
+        let reload = document.getElementById("reloade");
+
+        reload.style.display="none";
+    }, 1700);
+</script>
+
+
 </body>
 </html>

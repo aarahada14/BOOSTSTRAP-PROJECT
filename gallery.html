@@ -13,11 +13,22 @@
 </head>
 
 <body>
+<!-- .................................reloade START...................................... -->
+<div class="reloade position-fixed w-100  z-3 top-0 start-0" id="reloade" style="height: 100vh; background-color: #2294af;">
+    <div class=" position-absolute top-50 start-50 translate-middle"  role="status">
+        <span class=" img-fluid d-flex justify-content-center"><img src="img/Stirfry.gif" style="width: 300px;" alt=""></span>
+      </div>
+</div>
+<!-- .................................reloade END...................................... -->
+
+
+
+
 <!-- .................................header START...................................... -->   
 <header class="position-fixed z-3 w-100 top-0">
     <div class="navbar border navbar-expand-lg bg-black" data-bs-theme="dark">
         <div class="container">
-            <a class="navbar-brand h1 fs-1"><img src="img/logo (1).png" alt=""></a>
+            <a href="index.html" class="navbar-brand h1 fs-1"><img src="img/logo (1).png" alt=""></a>
                 <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -213,7 +224,15 @@ $('.move').slick({
     // instead of a settings object
   ]
 });
-    </script>
+</script>
    
+<script>
+    setTimeout(() => {
+        let reload = document.getElementById("reloade");
+
+        reload.style.display="none";
+    }, 1700);
+</script>
+
 </body>
 </html>
